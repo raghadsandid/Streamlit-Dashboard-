@@ -1,5 +1,5 @@
 streamlit
-plot
+plotly
 pandas
 matplotlib
 numpy
