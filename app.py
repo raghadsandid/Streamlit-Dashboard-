@@ -153,6 +153,17 @@ section[data-testid="stSidebar"] div[role="radiogroup"] > label::before {
 
   section[data-testid="stSidebar"] {
   min-width: 280px !important;  
+  /* prevent off-canvas bits from showing */
+html, body, .stApp { overflow-x: hidden; }
+
+/* when sidebar is collapsed, remove width + glow so nothing peeks */
+section[data-testid="stSidebar"][aria-expanded="false"] {
+  min-width: 0 !important;
+  padding-left: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  overflow: hidden !important;
+}
        </style>
 """, unsafe_allow_html=True)
 
