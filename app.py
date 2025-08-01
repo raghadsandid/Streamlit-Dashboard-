@@ -152,7 +152,7 @@ section[data-testid="stSidebar"] div[role="radiogroup"] > label::before {
 }
 
   section[data-testid="stSidebar"] {
-  min-width: 250px !important;  
+  min-width: 275px !important;  
        </style>
 """, unsafe_allow_html=True)
 
