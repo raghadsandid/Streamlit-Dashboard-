@@ -150,6 +150,10 @@ section[data-testid="stSidebar"] div[role="radiogroup"] > label::before {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+section[data-testid="stSidebar"] {
+  min-width: 320px !important;   
+  
        </style>
 """, unsafe_allow_html=True)
 
