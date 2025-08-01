@@ -110,12 +110,12 @@ section[data-testid="stSidebar"] div[role="radiogroup"] > label:nth-of-type(4)::
 
 /* GLOWING DESIGN FOR THE NAVIGATION SIDEBAR WHICH CONSISTS OF THE COLOR, GLOW BORDERS, AND ROUNDING CORNERS */
 section[data-testid="stSidebar"] {
-    padding-left: 2rem !important;}
- {
-    border: 2px solid #00b4ff;
-    box-shadow: 0 0 5px #00b4ff;
-    border-radius: 28px;
-    padding: 10px;
+   padding-left: 2rem !important;
+   border: 2px solid #00b4ff;
+   box-shadow: 0 0 5px #00b4ff;
+   border-radius: 28px;
+   padding: 10px;
+   min-width: 300px !important; 
 }
 
 /* GLOWING DESIGN FOR THE 4 RADIO BUTTONS (DAILY... ETC) */
@@ -151,8 +151,6 @@ section[data-testid="stSidebar"] div[role="radiogroup"] > label::before {
   background-position: center;
 }
 
-section[data-testid="stSidebar"] {
-  min-width: 300px !important;   
   
        </style>
 """, unsafe_allow_html=True)
